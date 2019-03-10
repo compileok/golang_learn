@@ -1,4 +1,4 @@
-package main
+package tree
 
 import "fmt"
 
@@ -42,7 +42,7 @@ func main() {
 
 }
 
-// go 语言没有构造函数这个说法。如果需要自定义的"构造函数"，可以使用工厂函数
+// go 语言没有构造函数这个说法。如果需要自定义的"构造函数"，可以使用工厂函数,如下 createNode
 
 func createNode(v int) *treeNode {
 	return &treeNode{value: v}
