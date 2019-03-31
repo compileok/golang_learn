@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eb08791-7ea9-45db-849b-a55213fc13af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/crawler/model/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/model/profile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/city.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/city.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="2eb08791-7ea9-45db-849b-a55213fc13af" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/city.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
@@ -111,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="148">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="e#16#50#0" expanded="true" />
               </folding>
@@ -214,8 +209,8 @@
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile_test_data.html" />
         <option value="$PROJECT_DIR$/crawler/model/profile.go" />
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" />
-        <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go" />
         <option value="$PROJECT_DIR$/crawler/zhenai/parser/city.go" />
+        <option value="$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go" />
       </list>
     </option>
   </component>
@@ -416,7 +411,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553310747374</updated>
       <workItem from="1553310748952" duration="13398000" />
-      <workItem from="1553870137533" duration="14977000" />
+      <workItem from="1553870137533" duration="15485000" />
     </task>
     <servers />
   </component>
@@ -453,7 +448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28375000" />
+    <option name="totallyTimeSpent" value="28883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="0" />
@@ -702,22 +697,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile.go">
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/city.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="213">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding>
             <element signature="e#16#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="e#16#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,12 +717,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/city.go">
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="197">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#16#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/zhenai/parser/profile_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#16#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

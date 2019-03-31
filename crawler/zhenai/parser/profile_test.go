@@ -13,7 +13,6 @@ func TestParseProfile(t *testing.T){
 	if err != nil {
 		panic(err)
 	}
-	//fmt.Printf("%s",contents)
 	result := ParseProfile(contents,"test")
 	profile := result.Items[0].(model.Profile)
 	fmt.Println("xingzuo: "+profile.Xinzuo)
