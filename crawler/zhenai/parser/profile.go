@@ -14,6 +14,8 @@ var xinzuo = regexp.MustCompile(`<div class="m-btn purple" [^>]*>([\p{Han}]+座[
 var height = regexp.MustCompile(`<div class="m-btn purple" [^>]*>([\d]+)[cm|CM|Cm|cM]+</div>`)
 var weight = regexp.MustCompile(`<div class="m-btn purple" [^>]*>([\d]+)[kg|KG|Kg|kG]+</div>`)
 var income = regexp.MustCompile(`<div class="m-btn purple" [^>]*>月收入:([\S]+)</div>`)
+var hukou = regexp.MustCompile(`<div class="m-btn pink" [^>]*>籍贯:([\p{Han}]+)</div>`)
+
 
 func ParseProfile(content []byte,name string) engine.ParseResult{
 
@@ -47,6 +49,8 @@ func ParseProfile(content []byte,name string) engine.ParseResult{
 	// 月收入
 	profile.Income = extractString(content,income)
 
+	// 户口
+	profile.Hokou = extractString(content,hukou)
 
 	result := engine.ParseResult{
 		Items:[]interface{} {profile},

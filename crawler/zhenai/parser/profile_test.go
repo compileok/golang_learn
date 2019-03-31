@@ -21,6 +21,6 @@ func TestParseProfile(t *testing.T){
 	fmt.Println("height: ",profile.Height)
 	fmt.Println("weight: ",profile.Weight)
 	fmt.Println("income: ",profile.Income)
-
+	fmt.Println("hukou:" + profile.Hokou)
 
 }
