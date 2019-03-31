@@ -13,9 +13,10 @@ var marriageRe =regexp.MustCompile(`<div class="m-btn purple" [^>]*>([未婚|离
 
 
 
-func ParseProfile(content []byte) engine.ParseResult{
+func ParseProfile(content []byte,name string) engine.ParseResult{
 
 	profile := model.Profile{}
+	profile.Name = name
 
 	age,err := strconv.Atoi(extractString(content,ageRe))
 	if(err == nil) {
@@ -41,7 +42,4 @@ func extractString(contents []byte,re *regexp.Regexp) string {
 	} else {
 		return ""
 	}
-
-
-
 }

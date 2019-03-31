@@ -11,7 +11,9 @@ type Profile struct {
 	Marriage   string
 	Education  string
 	Occupation string
+	// 户口
 	Hokou      string
+	// 星座
 	Xinzuo     string
 	House      string
 	Car        string
