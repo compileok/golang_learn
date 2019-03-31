@@ -16,7 +16,11 @@ func TestParseProfile(t *testing.T){
 	//fmt.Printf("%s",contents)
 	result := ParseProfile(contents,"test")
 	profile := result.Items[0].(model.Profile)
-	fmt.Println(profile.Age == 25)
+	fmt.Println("xingzuo: "+profile.Xinzuo)
+	fmt.Printf("age: %d\n" , profile.Age)
+	fmt.Println("height: ",profile.Height)
+	fmt.Println("weight: ",profile.Weight)
+	fmt.Println("income: ",profile.Income)
 
 
 }
